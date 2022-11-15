@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+body {
+    background-color: hsl(233, 47%, 7%);
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+
+.card {
+    background: hsl(244, 38%, 16%);
+    font-size: 15px;
+    position: relative;
+    border-radius: 10px;
+    top: 80px;
+    left: 150px;
+    height: 400px;
+    width: 900px;
+}
+.img{
+    position: relative;
+    border-radius: 10px;
+    height: 400px;
+    width: 420px;
+    left: 480px;
+}
+.color{
+    position: relative;
+    border-radius: 10px;
+    height: 400px;
+    width: 420px;
+    background: hsl(277, 64%, 61%);
+    opacity: 0.6;
+    top: -405px;
+    left: 480px;
+}
+.cont{
+    font-family: Inter;
+    display: grid;
+    position: relative;
+    top: -780px;
+    left: 60px;
+}
+.cont h4{
+    
+    color:hsla(0, 0%, 100%);
+    font-size: 30px;
+}
+.cont h4 a{
+    color: hsl(277, 64%, 61%);
+}
+.cont p{
+    position: relative;
+    color: hsla(0, 0%, 100%, 0.6);
+    top: -30px;
+}
+.num{
+    font-family: Inter;
+    position: relative;
+    display: inline-flex;
+    flex-wrap: wrap;
+    top: -790px;
+    left: 20px;
+
+}
+.num > div {
+    margin: 35px;
+}
+.num div h2{
+    color:hsla(0, 0%, 100%);
+}
+p{
+    color: hsla(0, 0%, 100%, 0.6);
+}
